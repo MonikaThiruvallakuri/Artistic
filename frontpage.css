@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+.navbar{
+    background-color:#edebeb;
+    border: 3px solid rgb(249, 249, 249);
+
+}
+.nav-item .nav-link{
+    color: rgb(0, 0, 0) !important;
+    font-weight:normal;
+    font-size: 20px;
+    }
+.bgimg{
+    background-image: url("./main-banner-2_1903x650_2b668bfa-5237-4783-88db-95be7b329865_1800x.webp");
+    height: 83vh;
+    width: 98vw;
+    background-position: center;
+    background-size: cover;
+
+}
+.head1{
+    font-weight: bold;
+    text-align: left;
+    color:#000000;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.one{
+    width: 30%;
+    font-size: 20px;
+}
+.para{
+    margin-top: -1%;
+    margin-left: 5%;
+}
+.head2{
+    color: rgb(10, 10, 10);
+    font-size: 45px;
+    font-weight:lighter;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+/* about */
+.imageries{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+.card-img-top{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+.card-title{
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+}
+.card-group{
+    margin-bottom: 3%;
+}
+.three{
+    border: 1px solid rgb(155, 155, 155);
+    color: rgb(7, 7, 7);
+    font-size: 15px;
+}
+/* payment */
+.one{
+    background-color: rgb(79, 79, 79);
+    color: white;
+    font-size: 25px;
+    width: 50%;
+}
+.fa-cc-mastercard{
+    background-color: rgb(76, 115, 130);
+    font-size: 30px;
+    
+}
+@media screen and(max-width:768) {
+    .adjust{
+        margin-top: -5%;
+    }
+    
+}
+@media screen and(min-width:769) {
+    .adjust{
+        margin-top: 5%;
+    }
+    
+}
+/* contact */
+.input-group-text{
+    background-color: rgb(149, 151, 149);
+    color: white;
+    font-size: 20px;
+}
+.fa-address-book{
+    background-color: rgb(163, 163, 163);
+    font-size: 20px;
+}
+/* footer */
+.bgimg5{
+    background-color: #939191;
+
+}
+.ftext{
+    color: rgb(7, 7, 7);
+    text-decoration: underline rgb(0, 0, 0);
+    font-size: 45px;
+}
+.last li{
+    color: white;
+    font-weight: lighter;
+}
+.fa-linkedin{
+    font-size: 30px;
+    padding-left: 2%;
+    color: rgb(11, 11, 11);
+}
+.fa-youtube{
+    font-size: 30px;
+    padding-left: 2%;
+    color: rgb(11, 11, 11);
+}
+.fa-facebook{
+    font-size: 30px;
+    padding-left: 2%;
+    color: rgb(11, 11, 11);
+}
+.fa-square-snapchat{
+    font-size: 30px;
+    padding-left: 2%;
+    color: rgb(11, 11, 11);
+}
+.fa-square-instagram{
+    font-size: 30px;
+    padding-left: 2%;
+    color: rgb(11, 11, 11);
+}
+.fa-arrow-up{
+    color: white;
+    font-size: 30px;
+    border: 1px solid rgb(22, 22, 22);
+    background-color: black;
+    float: right;
+    margin-top: -4%;
+    margin-right: 6%;
+}
